@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(); */
+
+}
+
+body
+{
+    background-color: #f5da1b
+    ;
+}
+
+.container
+{
+    width: 60vw;
+    height:80vh;
+    background-color: rgb(11, 68, 118);
+    /* margin: 0 auto;
+    margin-top:40px ; */
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+
+.tout
+{
+    width: 20%;
+    height: 24%;
+    border: 2px solid whitesmoke;
+}
+
+/* ********************************** pseudo */
+
+.container_pseudo
+{
+    width: 900px;
+    height: 550px;
+    /* background-color: rgb(149, 149, 178); */
+    /* background: linear-gradient(to top ,rgb(149, 149, 178), rgb(49, 49, 59)); */
+    background-image: url("../img/bg_pokemon.jpg" );
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.pseudo-div
+{
+width: 100%;
+height: 100%;
+
+font-family: Arial, Helvetica, sans-serif;
+}
+#pseudo
+{
+    border-radius: 3px;
+    width: 20vw;
+    height: 6vh;
+    font-size: 18px;
+    border: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btn 
+{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.btn_mode
+{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#401618;
+    color: wheat;
+
+}
+.btn_mode:hover{
+    color: whitesmoke;
+    background: linear-gradient(to top ,#401618, #af4635);
+
+}
+
+h1{
+    color: white
+    ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 37px;
+}
+
+h2{
+    color: #29150e
+    ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 37px;
+}
+
+.d-none{
+    display: none;
+}
+.d-initial
+{
+    display: initial;
+}
+.score_j
+{
+    font-size: 28px;
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    transform: translate(-50%,-90%);
+    color: rgb(0, 0, 0);
+}
+
+/* .finale
+{
+    width: 60vw;
+    height:80vh;
+    background-color: rgb(11, 68, 118);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+} */
